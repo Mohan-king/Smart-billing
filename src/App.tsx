@@ -3167,7 +3167,7 @@ export default function App() {
                             const isSelected = selectedKotId === kot.id;
                             const itemsCount = kot.items.reduce((sum, item) => sum + item.quantity, 0);
                             return (
-                              <button
+                              <div
                                 key={kot.id}
                                 onClick={() => setSelectedKotId(kot.id)}
                                 className={`w-full text-left p-3 rounded-xl border transition-all flex flex-col space-y-2 cursor-pointer relative ${
@@ -3262,7 +3262,7 @@ export default function App() {
                                     )}
                                   </div>
                                 </div>
-                              </button>
+                              </div>
                             );
                           })
                         )}
