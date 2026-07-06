@@ -1,0 +1,6 @@
+{
+  "name": "Smart Hotel Billing System",
+  "description": "A highly polished, professional hotel and restaurant billing system featuring real-time menu management, automated receipt billing with instant print preview, and daily sales dashboards in a responsive green and white interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
